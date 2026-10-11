@@ -1,0 +1,79 @@
+{
+  "benchmark_commit": "82d8cc6910419298e713a46644ed59fd3df53038",
+  "circuits": [
+    {
+      "name": "div",
+      "group": "arithmetic",
+      "split": "new_holdout",
+      "file": "benchmarks/holdout/div.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/div.aig",
+      "sha256": "e65955ae0931e5c7ed91a6210f0f6e6b7bd95eaeef1ffddcfb3e7ec633ed5d82",
+      "bytes": 177604
+    },
+    {
+      "name": "hyp",
+      "group": "arithmetic",
+      "split": "new_holdout",
+      "file": "benchmarks/holdout/hyp.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/hyp.aig",
+      "sha256": "b0be478cd838b5fb7bb91ee695aae9e5e8a6ddb3035f965461bb709c21386549",
+      "bytes": 592213
+    },
+    {
+      "name": "log2",
+      "group": "arithmetic",
+      "split": "new_holdout",
+      "file": "benchmarks/holdout/log2.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/log2.aig",
+      "sha256": "146f031921372d0dc47c73ad2c82ce4e7413caff725204b7938a4cf61b1f15cb",
+      "bytes": 96543
+    },
+    {
+      "name": "multiplier",
+      "group": "arithmetic",
+      "split": "new_holdout",
+      "file": "benchmarks/holdout/multiplier.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/multiplier.aig",
+      "sha256": "543555652101e587c1d1b18a38eb18dfebcb5f85e63e35c781361aa26888946e",
+      "bytes": 80932
+    },
+    {
+      "name": "sqrt",
+      "group": "arithmetic",
+      "split": "new_holdout",
+      "file": "benchmarks/holdout/sqrt.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/sqrt.aig",
+      "sha256": "2fdf59877a0f1ceba46a2a3aca5457e05c47ac24ceb69839a4c12d071cf62300",
+      "bytes": 69537
+    },
+    {
+      "name": "square",
+      "group": "arithmetic",
+      "split": "new_holdout",
+      "file": "benchmarks/holdout/square.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/square.aig",
+      "sha256": "c3fe8598cf501743043cf573b7226478a06be9dfb180d17bca77cdfbe667d784",
+      "bytes": 51034
+    },
+    {
+      "name": "mem_ctrl",
+      "group": "random_control",
+      "split": "new_holdout",
+      "file": "benchmarks/holdout/mem_ctrl.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/mem_ctrl.aig",
+      "sha256": "390d601836717129b903a5ecc8fd96b41d322d26895d666b303c64b796bd0d1d",
+      "bytes": 193732
+    },
+    {
+      "name": "voter",
+      "group": "random_control",
+      "split": "new_holdout",
+      "file": "benchmarks/holdout/voter.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/voter.aig",
+      "sha256": "10ea098f4fca120ba55dd1abd5fab34d6a4df6099c4f411bc8592a27f9caf324",
+      "bytes": 45327
+    }
+  ],
+  "created_utc": "2026-10-09T16:17:17.104881+00:00",
+  "selection": "All eight unused regular circuits; never filtered on optimization benefit"
+}

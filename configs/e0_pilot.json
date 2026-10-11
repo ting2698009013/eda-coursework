@@ -1,0 +1,53 @@
+{
+  "circuits": [
+    "ctrl",
+    "int2float"
+  ],
+  "max_depth": 10,
+  "beam_width": 4,
+  "command_timeout": 15,
+  "cec_timeout": 30,
+  "split": "development",
+  "reference_command_timeout": 30,
+  "primary_method": "lut_beam",
+  "statistics": {
+    "metric": "equal-circuit mean log ratio",
+    "bootstrap": "paired time blocks",
+    "iterations": 10000,
+    "seed": 314159
+  },
+  "stopping": "Fixed sample size; no outcome-based additions or deletions",
+  "stage": "E0",
+  "method_runs": [
+    {
+      "method": "random",
+      "repeats": 2,
+      "seed_start": 100
+    },
+    {
+      "method": "lut_beam",
+      "repeats": 2
+    },
+    {
+      "method": "lut_beam_diverse",
+      "repeats": 2,
+      "seed_start": 200
+    },
+    {
+      "method": "aig_beam",
+      "repeats": 2
+    },
+    {
+      "method": "greedy",
+      "repeats": 2
+    }
+  ],
+  "protocols": [
+    {
+      "name": "time05s",
+      "seconds": 0.5,
+      "max_calls": 10000
+    }
+  ],
+  "scheduling_seed": 2026100901
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Predeclared held-out evaluation. Equal ABC invocation count and equal wall-clock budget. All methods and all outcomes retained.",
+  "circuits": ["adder", "bar", "max", "sin", "arbiter", "cavlc", "dec", "i2c", "priority", "router"],
+  "methods": ["random", "greedy", "aig_beam", "lut_beam", "lut_beam_diverse"],
+  "seeds": [0, 1, 2],
+  "protocols": [{"name": "calls120", "max_calls": 120}, {"name": "time2s", "max_calls": 10000, "seconds": 2.0}],
+  "max_depth": 10,
+  "beam_width": 4,
+  "command_timeout": 15,
+  "cec_timeout": 30,
+  "scheduling_seed": 20261009
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eda-lut-search"
+version = "0.1.0"
+description = "Reproducible ABC sequence search for 6-LUT mapping"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+report = ["matplotlib>=3.7"]
+
+[project.scripts]
+lut-search = "lutsearch.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["lutsearch*"]

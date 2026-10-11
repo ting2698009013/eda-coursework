@@ -1,0 +1,27 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-and-abc:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Fetch pinned ABC and Yosys
+        run: python scripts/bootstrap.py
+      - name: Check tool and published evidence
+        run: |
+          python -m lutsearch doctor
+          python scripts/check_publication.py
+      - name: Run unit and real ABC integration tests
+        run: python -m unittest discover -s tests -v

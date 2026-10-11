@@ -1,0 +1,136 @@
+{
+  "benchmark_commit": "82d8cc6910419298e713a46644ed59fd3df53038",
+  "circuits": [
+    {
+      "name": "ctrl",
+      "group": "random_control",
+      "split": "development",
+      "file": "benchmarks/ctrl.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/ctrl.aig",
+      "sha256": "9da22b9ba9917569878d750926623d3920a4cd985a0980cc65763c5d3ac0e78b",
+      "bytes": 1119
+    },
+    {
+      "name": "int2float",
+      "group": "random_control",
+      "split": "development",
+      "file": "benchmarks/int2float.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/int2float.aig",
+      "sha256": "ad280bdb8331591998b8184ff70ad00d31184649c245796965fc6777e3016bab",
+      "bytes": 992
+    },
+    {
+      "name": "adder",
+      "group": "arithmetic",
+      "split": "test",
+      "file": "benchmarks/adder.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/adder.aig",
+      "sha256": "60a28c90dc413ab479e07aba13185ae71ab7ffd3fd256c5e631212ee46170bcd",
+      "bytes": 7393
+    },
+    {
+      "name": "bar",
+      "group": "arithmetic",
+      "split": "test",
+      "file": "benchmarks/bar.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/bar.aig",
+      "sha256": "28a3d895fe2821d4dcd04230751a059cb31ff5e28285a61ff7778cf71fb61da3",
+      "bytes": 14097
+    },
+    {
+      "name": "max",
+      "group": "arithmetic",
+      "split": "test",
+      "file": "benchmarks/max.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/max.aig",
+      "sha256": "9a7c45c95cec2afbfd418468d8b5ff6a33161c591892e34ba34ff6ed3fbbb1a9",
+      "bytes": 17880
+    },
+    {
+      "name": "sin",
+      "group": "arithmetic",
+      "split": "test",
+      "file": "benchmarks/sin.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/arithmetic/sin.aig",
+      "sha256": "e1a649d2eca27337787cb4aed79abe120f49597975beaed8bffd6a329c2664b3",
+      "bytes": 15207
+    },
+    {
+      "name": "arbiter",
+      "group": "random_control",
+      "split": "test",
+      "file": "benchmarks/arbiter.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/arbiter.aig",
+      "sha256": "0eacc0a97717bbc91f732ce6814bbfcdefa8a0b65b13ade6f002e35d0e585d82",
+      "bytes": 45159
+    },
+    {
+      "name": "cavlc",
+      "group": "random_control",
+      "split": "test",
+      "file": "benchmarks/cavlc.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/cavlc.aig",
+      "sha256": "125e0fdeb41ccadac5e6ada71f3c416fd026cfcbc8e75ad1c6b57ddc2b100f31",
+      "bytes": 2453
+    },
+    {
+      "name": "dec",
+      "group": "random_control",
+      "split": "test",
+      "file": "benchmarks/dec.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/dec.aig",
+      "sha256": "38def606e795975e469273411ee9217bc43656c57e6f6eeda3ea640452fa3443",
+      "bytes": 6608
+    },
+    {
+      "name": "i2c",
+      "group": "random_control",
+      "split": "test",
+      "file": "benchmarks/i2c.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/i2c.aig",
+      "sha256": "3f6ab413a3f745c87811fa6565d972146f1f4e6ede78fae71fcb16e469b9b213",
+      "bytes": 7550
+    },
+    {
+      "name": "priority",
+      "group": "random_control",
+      "split": "test",
+      "file": "benchmarks/priority.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/priority.aig",
+      "sha256": "9123187c4169189f53f17a84367c4bd5f749b13298f9619ef601c5de4ee90678",
+      "bytes": 4061
+    },
+    {
+      "name": "router",
+      "group": "random_control",
+      "split": "test",
+      "file": "benchmarks/router.aig",
+      "url": "https://raw.githubusercontent.com/lsils/benchmarks/82d8cc6910419298e713a46644ed59fd3df53038/random_control/router.aig",
+      "sha256": "fe8d13d4efe05fc3400ab8c94c0d1ce07ee24dd2ec106f7ae3d24e962e80efbd",
+      "bytes": 2217
+    }
+  ],
+  "tools": [
+    {
+      "package": "yosys-abc_0.33-5build2_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/y/yosys/yosys-abc_0.33-5build2_amd64.deb",
+      "sha256": "916ba59b6ca6dd1b6b927c7364357c2801ccb85db7eb3ca858ac9a856270fa44",
+      "bytes": 5829332
+    },
+    {
+      "package": "yosys_0.33-5build2_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/y/yosys/yosys_0.33-5build2_amd64.deb",
+      "sha256": "94247f2157ec6ce63c6638326e419975d911ace5356b3dc276d1d8b36659efbd",
+      "bytes": 3222052
+    },
+    {
+      "package": "libtcl8.6_8.6.14+dfsg-1build1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tcl8.6/libtcl8.6_8.6.14+dfsg-1build1_amd64.deb",
+      "sha256": "7534eb825f6317514d747ce53b4d6c23bf24df1dc1785f9599610ece5515e685",
+      "bytes": 987614
+    }
+  ],
+  "tool_platform": "Ubuntu 24.04 amd64 (WSL on Windows)",
+  "package_checksum_source": "Ubuntu noble apt package metadata",
+  "selection": "Preselected: two development and ten held-out test circuits. No circuits selected by optimization outcome."
+}

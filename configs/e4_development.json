@@ -1,0 +1,74 @@
+{
+  "stage": "E4",
+  "split": "observed_diagnostic",
+  "circuits": [
+    "adder",
+    "bar",
+    "max",
+    "sin",
+    "arbiter",
+    "cavlc",
+    "dec",
+    "i2c",
+    "priority",
+    "router"
+  ],
+  "max_depth": 10,
+  "beam_width": 4,
+  "command_timeout": 15,
+  "cec_timeout": 30,
+  "reference_command_timeout": 30,
+  "descriptive_only": true,
+  "protocols": [
+    {
+      "name": "time10s",
+      "seconds": 10,
+      "max_calls": 10000
+    }
+  ],
+  "scheduling_seed": 2026100904,
+  "method_runs": [
+    {
+      "method": "random",
+      "repeats": 5,
+      "seed_start": 400
+    },
+    {
+      "method": "lut_beam",
+      "repeats": 5
+    },
+    {
+      "method": "sequence_local",
+      "label": "local_restart5",
+      "repeats": 5,
+      "seed_start": 500,
+      "config": {
+        "restart_after": 5
+      }
+    },
+    {
+      "method": "sequence_local",
+      "label": "local_restart10",
+      "repeats": 5,
+      "seed_start": 500,
+      "config": {
+        "restart_after": 10
+      }
+    },
+    {
+      "method": "sequence_local",
+      "label": "local_restart20",
+      "repeats": 5,
+      "seed_start": 500,
+      "config": {
+        "restart_after": 20
+      }
+    }
+  ],
+  "selection": {
+    "metric": "Equal-circuit mean log LUT ratio to random; maximize percentage reduction",
+    "near_best_percentage_points": 0.1,
+    "tie_preference": "Larger restart_after to reduce restart frequency"
+  },
+  "design_document": "docs/EXPERIMENT_EXECUTION.md"
+}

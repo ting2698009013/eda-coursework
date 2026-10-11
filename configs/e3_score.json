@@ -1,0 +1,36 @@
+{
+  "stage": "E3",
+  "circuits": [
+    "priority",
+    "sin",
+    "i2c"
+  ],
+  "split": "observed_diagnostic",
+  "max_depth": 10,
+  "beam_width": 4,
+  "command_timeout": 60,
+  "cec_timeout": 120,
+  "reference_command_timeout": 60,
+  "descriptive_only": true,
+  "interpretation": "Purposefully chosen diagnostic cases, not representative generalization",
+  "control": "score",
+  "hypothesis": "AIG versus LUT ranking changes retained paths even when both map all candidates",
+  "method_runs": [
+    {
+      "method": "aig_beam_mapped",
+      "repeats": 1
+    },
+    {
+      "method": "lut_beam",
+      "repeats": 1
+    }
+  ],
+  "protocols": [
+    {
+      "name": "complete10",
+      "seconds": 900,
+      "max_calls": 1000
+    }
+  ],
+  "scheduling_seed": 2026101004
+}

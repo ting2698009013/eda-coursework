@@ -1,0 +1,443 @@
+{
+  "E1": {
+    "status": "ok",
+    "candidate": "lut_beam",
+    "reference": "random",
+    "delta_percent": -2.970086591818144,
+    "ci95_percent": [
+      -3.098115755272898,
+      -2.8437005974132705
+    ],
+    "circuit_composition_sensitivity95": [
+      -7.274794251894945,
+      0.10846536848790889
+    ],
+    "circuits": 10,
+    "blocks_per_circuit": {
+      "adder": 30,
+      "arbiter": 30,
+      "bar": 30,
+      "cavlc": 30,
+      "dec": 30,
+      "i2c": 30,
+      "max": 30,
+      "priority": 30,
+      "router": 30,
+      "sin": 30
+    },
+    "iterations": 10000,
+    "seed": 314159,
+    "interpretation": "Positive means candidate uses fewer LUTs. Primary interval conditions on this circuit set; circuit sensitivity is not universal generalization.",
+    "per_circuit": {
+      "adder": {
+        "delta_percent": 1.0124639396620005,
+        "wins": 26,
+        "ties": 4,
+        "losses": 0
+      },
+      "arbiter": {
+        "delta_percent": 0.11647391424464137,
+        "wins": 24,
+        "ties": 6,
+        "losses": 0
+      },
+      "bar": {
+        "delta_percent": 0.0,
+        "wins": 0,
+        "ties": 30,
+        "losses": 0
+      },
+      "cavlc": {
+        "delta_percent": 0.14133433541549945,
+        "wins": 14,
+        "ties": 10,
+        "losses": 6
+      },
+      "dec": {
+        "delta_percent": 0.0,
+        "wins": 0,
+        "ties": 30,
+        "losses": 0
+      },
+      "i2c": {
+        "delta_percent": -2.317961359991072,
+        "wins": 0,
+        "ties": 1,
+        "losses": 29
+      },
+      "max": {
+        "delta_percent": -0.24256363870318598,
+        "wins": 0,
+        "ties": 24,
+        "losses": 6
+      },
+      "priority": {
+        "delta_percent": -18.678196905814314,
+        "wins": 0,
+        "ties": 0,
+        "losses": 30
+      },
+      "router": {
+        "delta_percent": -11.844341318123286,
+        "wins": 0,
+        "ties": 0,
+        "losses": 30
+      },
+      "sin": {
+        "delta_percent": 0.3076938645912519,
+        "wins": 25,
+        "ties": 0,
+        "losses": 5
+      }
+    }
+  },
+  "E2": {
+    "2": {
+      "status": "ok",
+      "candidate": "lut_beam",
+      "reference": "random",
+      "delta_percent": -3.0117385958471354,
+      "ci95_percent": [
+        -3.202978019419347,
+        -2.833913464655914
+      ],
+      "circuit_composition_sensitivity95": [
+        -7.440955544612454,
+        0.17110113953161796
+      ],
+      "circuits": 10,
+      "blocks_per_circuit": {
+        "adder": 10,
+        "arbiter": 10,
+        "bar": 10,
+        "cavlc": 10,
+        "dec": 10,
+        "i2c": 10,
+        "max": 10,
+        "priority": 10,
+        "router": 10,
+        "sin": 10
+      },
+      "iterations": 10000,
+      "seed": 314159,
+      "interpretation": "Positive means candidate uses fewer LUTs. Primary interval conditions on this circuit set; circuit sensitivity is not universal generalization.",
+      "per_circuit": {
+        "adder": {
+          "delta_percent": 0.9349473627371485,
+          "wins": 8,
+          "ties": 2,
+          "losses": 0
+        },
+        "arbiter": {
+          "delta_percent": 0.12505707956518286,
+          "wins": 9,
+          "ties": 1,
+          "losses": 0
+        },
+        "bar": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "cavlc": {
+          "delta_percent": 0.434965773090068,
+          "wins": 6,
+          "ties": 3,
+          "losses": 1
+        },
+        "dec": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "i2c": {
+          "delta_percent": -1.7746945519598212,
+          "wins": 0,
+          "ties": 1,
+          "losses": 9
+        },
+        "max": {
+          "delta_percent": -0.18198858942466423,
+          "wins": 0,
+          "ties": 9,
+          "losses": 1
+        },
+        "priority": {
+          "delta_percent": -19.113423317748968,
+          "wins": 0,
+          "ties": 0,
+          "losses": 10
+        },
+        "router": {
+          "delta_percent": -12.785016933701133,
+          "wins": 0,
+          "ties": 0,
+          "losses": 10
+        },
+        "sin": {
+          "delta_percent": 0.2893072321031642,
+          "wins": 8,
+          "ties": 0,
+          "losses": 2
+        }
+      }
+    },
+    "10": {
+      "status": "ok",
+      "candidate": "lut_beam",
+      "reference": "random",
+      "delta_percent": -0.39935413076801485,
+      "ci95_percent": [
+        -0.5455315345895934,
+        -0.26009433965274115
+      ],
+      "circuit_composition_sensitivity95": [
+        -1.4841742835420004,
+        0.4623784865600383
+      ],
+      "circuits": 10,
+      "blocks_per_circuit": {
+        "adder": 10,
+        "arbiter": 10,
+        "bar": 10,
+        "cavlc": 10,
+        "dec": 10,
+        "i2c": 10,
+        "max": 10,
+        "priority": 10,
+        "router": 10,
+        "sin": 10
+      },
+      "iterations": 10000,
+      "seed": 314159,
+      "interpretation": "Positive means candidate uses fewer LUTs. Primary interval conditions on this circuit set; circuit sensitivity is not universal generalization.",
+      "per_circuit": {
+        "adder": {
+          "delta_percent": 0.4685714775162775,
+          "wins": 4,
+          "ties": 6,
+          "losses": 0
+        },
+        "arbiter": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "bar": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "cavlc": {
+          "delta_percent": 2.0276747647801407,
+          "wins": 10,
+          "ties": 0,
+          "losses": 0
+        },
+        "dec": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "i2c": {
+          "delta_percent": -1.0062541616420173,
+          "wins": 0,
+          "ties": 2,
+          "losses": 8
+        },
+        "max": {
+          "delta_percent": -1.068062485968957,
+          "wins": 0,
+          "ties": 1,
+          "losses": 9
+        },
+        "priority": {
+          "delta_percent": -0.06822890746467358,
+          "wins": 3,
+          "ties": 4,
+          "losses": 3
+        },
+        "router": {
+          "delta_percent": -4.555185795478356,
+          "wins": 0,
+          "ties": 0,
+          "losses": 10
+        },
+        "sin": {
+          "delta_percent": 0.08250440762893607,
+          "wins": 6,
+          "ties": 0,
+          "losses": 4
+        }
+      }
+    },
+    "30": {
+      "status": "ok",
+      "candidate": "lut_beam",
+      "reference": "random",
+      "delta_percent": -0.4310603526006318,
+      "ci95_percent": [
+        -0.5494387904307207,
+        -0.3168345592221067
+      ],
+      "circuit_composition_sensitivity95": [
+        -1.634009661941671,
+        0.3126259147485433
+      ],
+      "circuits": 10,
+      "blocks_per_circuit": {
+        "adder": 10,
+        "arbiter": 10,
+        "bar": 10,
+        "cavlc": 10,
+        "dec": 10,
+        "i2c": 10,
+        "max": 10,
+        "priority": 10,
+        "router": 10,
+        "sin": 10
+      },
+      "iterations": 10000,
+      "seed": 314159,
+      "interpretation": "Positive means candidate uses fewer LUTs. Primary interval conditions on this circuit set; circuit sensitivity is not universal generalization.",
+      "per_circuit": {
+        "adder": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "arbiter": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "bar": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "cavlc": {
+          "delta_percent": 1.068103548797239,
+          "wins": 9,
+          "ties": 1,
+          "losses": 0
+        },
+        "dec": {
+          "delta_percent": 0.0,
+          "wins": 0,
+          "ties": 10,
+          "losses": 0
+        },
+        "i2c": {
+          "delta_percent": 0.029419989823675774,
+          "wins": 5,
+          "ties": 2,
+          "losses": 3
+        },
+        "max": {
+          "delta_percent": -0.18510341379223139,
+          "wins": 4,
+          "ties": 2,
+          "losses": 4
+        },
+        "priority": {
+          "delta_percent": 0.06509673454712095,
+          "wins": 2,
+          "ties": 6,
+          "losses": 2
+        },
+        "router": {
+          "delta_percent": -5.565795705203969,
+          "wins": 0,
+          "ties": 0,
+          "losses": 10
+        },
+        "sin": {
+          "delta_percent": 0.13153811364676748,
+          "wins": 6,
+          "ties": 2,
+          "losses": 2
+        }
+      }
+    }
+  },
+  "E5": {
+    "status": "ok",
+    "candidate": "sequence_local",
+    "reference": "random",
+    "delta_percent": -1.0815166927106823,
+    "ci95_percent": [
+      -1.4990489871486339,
+      -0.6696849964452917
+    ],
+    "circuit_composition_sensitivity95": [
+      -2.2773495871085903,
+      -0.12411614744465282
+    ],
+    "circuits": 7,
+    "blocks_per_circuit": {
+      "div": 30,
+      "log2": 30,
+      "mem_ctrl": 30,
+      "multiplier": 30,
+      "sqrt": 30,
+      "square": 30,
+      "voter": 30
+    },
+    "iterations": 10000,
+    "seed": 314159,
+    "interpretation": "Positive means candidate uses fewer LUTs. Primary interval conditions on this circuit set; circuit sensitivity is not universal generalization.",
+    "per_circuit": {
+      "div": {
+        "delta_percent": 0.012064224840468984,
+        "wins": 5,
+        "ties": 22,
+        "losses": 3
+      },
+      "log2": {
+        "delta_percent": 0.19947161890898624,
+        "wins": 17,
+        "ties": 0,
+        "losses": 13
+      },
+      "mem_ctrl": {
+        "delta_percent": -4.1154362439531855,
+        "wins": 3,
+        "ties": 0,
+        "losses": 27
+      },
+      "multiplier": {
+        "delta_percent": -0.0330239269348942,
+        "wins": 14,
+        "ties": 0,
+        "losses": 16
+      },
+      "sqrt": {
+        "delta_percent": -1.2152732190929827,
+        "wins": 5,
+        "ties": 19,
+        "losses": 6
+      },
+      "square": {
+        "delta_percent": -0.21507739512967028,
+        "wins": 6,
+        "ties": 0,
+        "losses": 24
+      },
+      "voter": {
+        "delta_percent": -2.278456732698353,
+        "wins": 12,
+        "ties": 0,
+        "losses": 18
+      }
+    }
+  }
+}

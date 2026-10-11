@@ -1,0 +1,55 @@
+{
+  "stage": "E3",
+  "circuits": [
+    "priority",
+    "sin",
+    "i2c"
+  ],
+  "split": "observed_diagnostic",
+  "max_depth": 10,
+  "beam_width": 4,
+  "command_timeout": 15,
+  "cec_timeout": 30,
+  "reference_command_timeout": 30,
+  "descriptive_only": true,
+  "interpretation": "Purposefully chosen diagnostic cases, not representative generalization",
+  "control": "length",
+  "hypothesis": "At a fixed time budget, direct length-10 sampling can outperform short sequences; effects may differ by case",
+  "method_runs": [
+    {
+      "method": "random",
+      "label": "random_len3",
+      "repeats": 10,
+      "seed_start": 300,
+      "config": {
+        "random_length": 3
+      }
+    },
+    {
+      "method": "random",
+      "label": "random_len5",
+      "repeats": 10,
+      "seed_start": 300,
+      "config": {
+        "random_length": 5
+      }
+    },
+    {
+      "method": "random",
+      "label": "random_len10",
+      "repeats": 10,
+      "seed_start": 300,
+      "config": {
+        "random_length": 10
+      }
+    }
+  ],
+  "protocols": [
+    {
+      "name": "time10s",
+      "seconds": 10,
+      "max_calls": 10000
+    }
+  ],
+  "scheduling_seed": 2026101003
+}

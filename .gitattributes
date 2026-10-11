@@ -1,0 +1,6 @@
+# Preserve benchmark payloads and the upstream license/readme byte for byte.
+benchmarks/** -text -whitespace
+*.aig binary
+
+# Published experiment evidence is copied verbatim from its original export.
+reports/**/*.csv -text whitespace=cr-at-eol

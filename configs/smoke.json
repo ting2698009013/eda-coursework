@@ -1,0 +1,12 @@
+{
+  "description": "Development-only feasibility experiment; do not report as held-out evaluation",
+  "circuits": ["ctrl", "int2float"],
+  "methods": ["random", "greedy", "aig_beam", "lut_beam", "lut_beam_diverse"],
+  "seeds": [0],
+  "protocols": [{"name": "calls40", "max_calls": 40}, {"name": "time0p5", "max_calls": 10000, "seconds": 0.5}],
+  "max_depth": 10,
+  "beam_width": 4,
+  "command_timeout": 15,
+  "cec_timeout": 30,
+  "scheduling_seed": 20261009
+}
